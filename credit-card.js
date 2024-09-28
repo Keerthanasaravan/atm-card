@@ -211,8 +211,8 @@ document.querySelector('.creditcard').addEventListener('click', function () {
 //On Input Change Events
 name.addEventListener('input', function () {
     if (name.value.length == 0) {
-        document.getElementById('svgname').innerHTML = 'John Doe';
-        document.getElementById('svgnameback').innerHTML = 'John Doe';
+        document.getElementById('svgname').innerHTML = 'keerthana';
+        document.getElementById('svgnameback').innerHTML = 'keerthana';
     }
     else {
         document.getElementById('svgname').innerHTML = this.value;
